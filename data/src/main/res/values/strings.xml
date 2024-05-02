@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="no_info_disponible_personaje">No hay información disponible de este personaje</string>
+</resources>

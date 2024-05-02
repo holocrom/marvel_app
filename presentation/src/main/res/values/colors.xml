@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#FF007078</color>
+    <color name="primary_shadow_1">#FF66A9AE</color>
+    <color name="primary_shadow_2">#FFA3CBCE</color>
+    <color name="primary_shadow_3">#FFD1E5E7</color>
+    <color name="secondary">#FFFBC235</color>
+    <color name="secondary_shadow_1">#FFFDDA86</color>
+    <color name="secondary_shadow_2">#FFFEE9B6</color>
+    <color name="secondary_shadow_3">#FFFFF4DB</color>
+    <color name="secondaryDark">#FFF4A022</color>
+    <color name="accent">#FFDA2D6A</color>
+    <color name="accent_shadow_1">#FFDE648F</color>
+    <color name="accent_shadow_2">#FFE198B2</color>
+    <color name="accent_shadow_3">#FFE3B7C7</color>
+    <color name="accentDark">#FFD92A69</color>
+    <color name="brown">#8F8970</color>
+    <color name="brown_shadow_1">#FFC3BFB2</color>
+
+    <color name="success">#FF1C7F1C</color>
+    <color name="warning">#FFDC9407</color>
+    <color name="error">#FFDB0909</color>
+
+    <color name="text">#FF424747</color>
+    <color name="text_grey">#FF727272</color>
+    <color name="text_light">#FF999999</color>
+
+    <color name="grey_1">#FFBFBFBF</color>
+    <color name="grey_2">#FFE4E4E4</color>
+    <color name="grey_3">#FFF2F2F2</color>
+
+    <color name="background">#FFf6f7f9</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="mid_blue"> #56b9ea </color>
+    <color name="mid_blue_darker"> #1a9cdc </color>
+    <color name="blue_darker"> #1683b9  </color>
+    <color name="blue_darker_2">#047bb6</color>
+    <color name="dark_gray">#848789</color>
+</resources>

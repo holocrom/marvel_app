@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="character_avatar">character avatar</string>
+    <string name="description_img_detail_fragment">Description</string>
+    <string name="listado_de_favoritos">Lista de favoritos</string>
+    <string name="listado_de_super_heroes">Listado de super heroes</string>
+    <string name="borrar_listado_de_super_heroes">Borrar lista de favoritos</string>
+    <string name="lista_vacia_favoritos">"La lista de favoritos está vacia"</string>
+    <string name="error_por_defecto">Error en la operación</string>
+</resources>
