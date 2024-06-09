@@ -4,8 +4,6 @@ import com.example.domain.domain.ErrorMessage
 import com.example.domain.utils.Thumbnail
 import com.google.gson.annotations.SerializedName
 
-
-//--------------------------------------------------------------------------------
 data class CharacterModelDto(
     @SerializedName("id")
     val id : Int,
@@ -17,7 +15,6 @@ data class CharacterModelDto(
     val thumbnail : Thumbnail
     )
 
-//--------------------------------------------------------------------------------
 sealed class FailureDto(val msg : String?){
     companion object {
         private const val DEFAULT_ERROR_CODE = -1

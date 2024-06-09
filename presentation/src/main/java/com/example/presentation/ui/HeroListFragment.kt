@@ -58,11 +58,10 @@ class HeroListFragment : Fragment() {
         setupMenu()//try to register MenuProvider
 
     }
-    //------------------------------------
+
     private fun setupMenu() {
         (requireActivity() as MenuHost).addMenuProvider(object : MenuProvider {
             override fun onPrepareMenu(menu: Menu) {
-                // Handle for example visibility of menu items
             }
 
             override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
@@ -70,15 +69,12 @@ class HeroListFragment : Fragment() {
             }
 
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
-                // Validate and handle the selected menu item
                 return true
             }
         }, viewLifecycleOwner, Lifecycle.State.RESUMED)
     }
 
-    //------------------
     override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater){
-        // super.onCreateOptionsMenu(menu, menuInflater)
         menuInflater.apply {
             inflate(R.menu.item_menu,menu)
             inflate(R.menu.character_search,menu)
@@ -98,17 +94,13 @@ class HeroListFragment : Fragment() {
 
             override fun onQueryTextChange(newText: String?): Boolean {
                 if (newText!=null){
-                    //llama a método del viewmodel...
                 }
                 return true
             }
         })
     }
-    //------------------
 
 
-
-    //------------------------------------
     private fun initModel() {
         lifecycleScope.launch {
             listViewModel.superHeroListState.collect { superHeroState ->
